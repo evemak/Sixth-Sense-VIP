@@ -292,7 +292,7 @@ class GestureYoloOcr:
         cv.destroyAllWindows()
         self.audio_thread.stop()
         self.audio_thread.join()
-
+        
 
 if __name__ == "__main__":
     detector = GestureYoloOcr()
